@@ -1,0 +1,11 @@
+x = 8
+if x%2 == 0:
+    print("Genap")
+else:
+    print("Ganjil")
+    
+#statement if condition else statement
+print("Genap" if x%2 == 0 else "Ganjil")
+
+pesan = "Genap" if x%2 == 0 else "Ganjil"
+print(pesan)
