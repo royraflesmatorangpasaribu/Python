@@ -1,4 +1,3 @@
-import random
 matrix = []
 numberOfRows = eval(input("Enter the number of row : "))
 numberOfaColumns = eval(input("Enter the number of columns : "))
