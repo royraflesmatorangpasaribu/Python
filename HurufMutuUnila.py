@@ -21,3 +21,7 @@ def convertToHurufMutu():
         hurufMutu = "Huruf Mutu Tidak Tersedia"
     return hurufMutu
 
+print("")
+print("Nama : ", nama)
+print("NPM  : ",npm)
+print("Huruf Mutu :" ,convertToHurufMutu())
