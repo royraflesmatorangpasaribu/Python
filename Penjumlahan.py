@@ -7,6 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1iZb_97HKDwox5_xKjbw8IecJvqNYnAeP
 """
 
-nilai1, nilai2, nilai3 = eval(input("Input Tiga Nilai dipidahkan Dengan Koma : "))
-result = (nilai1**2)+(nilai2**2)+(nilai3**2)
-print("Output Penjumlahan Tiga Buah Nilai Kuadrat", result)
+nilai1, nilai2 = eval(input("Input Dua Nilai dipisahkan Dengan Koma : "))
+result = (nilai1**2)+(nilai2**2)
+print("Output Penjumlahan Dua Buah Nilai Kuadrat", result)
