@@ -16,4 +16,11 @@ df = pd.DataFrame(
                            ["Mentega", "Roti", "Kopi"]])
     }
 )
+
+df = df.explode('Item')
 df
+
+basket = (df.groupby(['ID Transaksi', 'Item'])['Item'].count()\
+                                      .unstack().reset_index().fillna(0)\
+                                      .set_index('ID Transaksi'))
+basket.head()
