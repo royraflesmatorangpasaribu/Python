@@ -32,3 +32,7 @@ from mlxtend import frequent_patterns
 frequent_itemsets = apriori(basket, min_support=0.6, use_colnames=True)
 # print(list(frequent_itemsets))
 frequent_itemsets
+
+
+rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.6)
+rules[["antecedents", "consequents", "support", "confidence"]]
